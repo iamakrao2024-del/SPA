@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block users from viewing sitemap & robots
+Disallow: /sitemap.xml
+Disallow: /robots.txt
+
+# Allow Googlebot to read sitemap
+User-agent: Googlebot
+Allow: /sitemap.xml
+
+Sitemap: https://fuk-everyday.com/sitemap.xml
